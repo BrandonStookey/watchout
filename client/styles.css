@@ -1,0 +1,23 @@
+body{
+  position: relative;
+  background-image: url("http://images3.alphacoders.com/273/273289.jpg");
+  background-size: 100%;
+}
+
+.scoreboard{
+  text-align: center;
+  font-family: "Courier New";
+  font-size: 2em;
+}
+
+svg{
+  display: block;
+  border: 2px solid black;
+  height: 500px;
+  width: 500px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 100px 0 0 -250px; 
+}
